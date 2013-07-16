@@ -5,12 +5,12 @@ require 'puppet2chef/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "puppet2chef"
-  spec.version       = Puppet2chef::VERSION
+  spec.version       = Puppet2Chef::VERSION
   spec.authors       = ["Christo DeLange"]
   spec.email         = ["github@dldinternet.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Allows for automated translation of Puppet modules into Chef cookbooks}
+  spec.summary       = %q{automated translation of Puppet modules into Chef cookbooks}
+  spec.homepage      = "http://github.com/dldinternet/puppet2chef"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

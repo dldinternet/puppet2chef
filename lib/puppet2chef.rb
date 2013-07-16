@@ -1,5 +1,5 @@
 require "puppet2chef/version"
 
-module Puppet2chef
+module Puppet2Chef
   # Your code goes here...
 end
